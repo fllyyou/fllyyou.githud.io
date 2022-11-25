@@ -1,0 +1,1 @@
+const t=Math.sqrt(2);class c{draw(a,o,e){a.rect(-e/t,-e/t,e*2/t,e*2/t)}getSidesCount(){return 4}}async function d(r){const a=new c;await r.addShape("edge",a),await r.addShape("square",a)}export{d as l};
